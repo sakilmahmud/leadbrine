@@ -1,4 +1,5 @@
 <?php
+
 /**
  * The header for our theme
  *
@@ -17,6 +18,7 @@
 <head>
     <meta charset="<?php bloginfo('charset'); ?>" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Leadbrine is a leading web development and digital marketing company in India. We offer a wide range of services including web design, web development, mobile app development, and digital marketing.">
     <link rel="profile" href="https://gmpg.org/xfn/11" />
     <?php wp_head(); ?>
     <link
@@ -64,6 +66,49 @@
     <!-- template styles -->
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/qutiiz.css" />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/qutiiz-responsive.css" />
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            "name": "Leadbrine",
+            "image": "<?php echo get_template_directory_uri(); ?>/assets/images/logo.png",
+            "@id": "",
+            "url": "<?php echo home_url(); ?>",
+            "telephone": "+91 70440 26420",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "2nd Floor, The Nest, Khasmallik,Baruipur, opposite to Khas Mallick Jame Masjid, Jogibattala, Baruipur, Kolkata",
+                "addressLocality": "Kolkata",
+                "postalCode": "700145",
+                "addressRegion": "WB",
+                "addressCountry": "IN"
+            },
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 22.3768577,
+                "longitude": 88.4235565
+            },
+            "openingHoursSpecification": {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday",
+                    "Saturday"
+                ],
+                "opens": "09:00",
+                "closes": "17:00"
+            },
+            "sameAs": [
+                "https://www.facebook.com/leadbrine/",
+                "https://twitter.com/leadbrine",
+                "https://www.instagram.com/leadbrine/",
+                "https://www.linkedin.com/company/leadbrine/"
+            ]
+        }
+    </script>
 </head>
 
 <body>
@@ -103,8 +148,11 @@
                             </div>
                             <div class="main-menu-wrapper__call-number">
                                 <p>Call Anytime</p>
-                                <h5><a href="tel:+916289480788">+91 62894 80788</a></h5>
+                                <h5><a href="tel:+917044026420">+91 70440 26420</a></h5>
                             </div>
+                        </div>
+                        <div class="main-menu-wrapper__quote-btn" style="margin-left: 20px;">
+                            <a href="#" class="thm-btn">Get a Quote</a>
                         </div>
                     </div>
                 </div>

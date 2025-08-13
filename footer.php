@@ -1,4 +1,5 @@
 <?php
+
 /**
  * The template for displaying the footer
  *
@@ -14,31 +15,6 @@
 ?>
 <!--Site Footer Start-->
 <footer class="site-footer">
-	<?php /*
-	  <div class="site-footer__top">
-		  <div class="container">
-			  <div class="site-footer__top-inner">
-				  <div class="site-footer__top-left">
-					  <div class="site-footer__top-logo">
-						  <a href="<?php echo home_url()?>"><img src="<?php echo get_template_directory_uri();?>/assets/images/logo_white.png" alt=""></a>
-					  </div>
-					  <?php /*<div class="site-footer__top-title-box">
-						  <h3 class="site-footer__top-title">Let's work together just drop me a line - <a href="mailto:support@leadbrine.com">support@leadbrine.com</a></h3>
-					  </div>
-				  </div>
-				  <div class="site-footer__top-right">
-					  <div class="site-footer__top-right-social">
-						  <a href="https://twitter.com/leadbrine" target="_blank"><i class="fab fa-twitter"></i></a>
-						  <a href="https://www.facebook.com/leadbrine" target="_blank"><i class="fab fa-facebook"></i></a>
-						  <a href="https://www.linkedin.com/company/leadbrine" target="_blank"><i class="fab fa-linkedin"></i></a>
-						  <a href="https://www.instagram.com/leadbrine" target="_blank"><i class="fab fa-pinterest-p"></i></a>
-						  <a href="https://www.instagram.com/leadbrine" target="_blank"><i class="fab fa-instagram"></i></a>
-						  <a href="https://leadbrine.quora.com/" target="_blank"><i class="fab fa-quara"></i></a>
-					  </div>
-				  </div>
-			  </div>
-		  </div>
-	  </div>*/?>
 	<div class="site-footer__middle">
 		<div class="site-footer-shape"
 			style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/shapes/site-footer-shape.png)">
@@ -145,7 +121,7 @@
 					<div class="col-xl-12">
 						<div class="site-footer__bottom-inner">
 							<div class="site-footer__bottom-left">
-								<p class="site-footer__bottom-text">© Copyrights, 2022 <a
+								<p class="site-footer__bottom-text">© Copyrights, 2025 <a
 										href="<?php echo home_url(); ?>">LeadBrine</a></p>
 							</div>
 							<div class="site-footer__bottom-right">

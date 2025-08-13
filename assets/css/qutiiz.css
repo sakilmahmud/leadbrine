@@ -27,8 +27,9 @@
   --qutiiz-white-rgb: 255, 255, 255;
   --qutiiz-black: #04000b;
   --qutiiz-black-rgb: 4, 0, 11;
-  --qutiiz-base: #6222cc;
-  --qutiiz-base-rgb: 98, 34, 204;
+  --qutiiz-base: #0a2540;
+  --qutiiz-base-rgb: 10, 37, 64;
+  --qutiiz-accent: #ff7e31;
   --qutiiz-bdr-radius: 8px;
 }
 
@@ -77,6 +78,7 @@ h6 {
   color: var(--qutiiz-black);
   margin: 0;
   font-family: var(--qutiiz-font-two);
+  font-weight: 700;
 }
 
 dl,
@@ -142,7 +144,7 @@ ul {
   vertical-align: middle;
   -webkit-appearance: none;
   outline: none !important;
-  background-color: var(--qutiiz-base);
+  background-color: var(--qutiiz-accent);
   color: var(--qutiiz-white);
   font-size: 16px;
   font-weight: 600;
