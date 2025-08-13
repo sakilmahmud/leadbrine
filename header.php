@@ -152,7 +152,7 @@
                             </div>
                         </div>
                         <div class="main-menu-wrapper__quote-btn" style="margin-left: 20px;">
-                            <a href="#" class="thm-btn">Get a Quote</a>
+                            <a href="#" class="thm-btn" data-toggle="modal" data-target="#getAQuoteModal"><i class="icon-paper-plane"></i></a>
                         </div>
                     </div>
                 </div>

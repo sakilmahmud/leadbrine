@@ -220,6 +220,9 @@ get_header();
                                 </div>
                             </div>
                         </div>
+                        <div class="why-choose-two__btn-box">
+                            <a href="#" class="thm-btn why-choose-two__btn">Discover More</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -277,6 +280,9 @@ get_header();
                 </div>
             </div>
         </div>
+        <div class="project-two__btn-box text-center">
+            <a href="#" class="thm-btn project-two__btn">View All Projects</a>
+        </div>
     </div>
 </section>
 <!--Project Two End-->
@@ -331,6 +337,9 @@ get_header();
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="testimonial-two__btn-box text-center">
+            <a href="#" class="thm-btn testimonial-two__btn">Read More Testimonials</a>
         </div>
     </div>
 </section>
@@ -478,6 +487,11 @@ get_header();
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="blog-two__btn-box text-center">
+            <a href="#" class="thm-btn blog-two__btn">Read More Articles</a>
+        </div>
+    </div>
 </section>
 <!--We Care End-->
 

@@ -52,7 +52,7 @@
 										<i class="fas fa-map-marker-alt"></i>
 									</div>
 									<div class="text">
-										<p>Quazi Nibas North Khodar Bazar, Baruipur, Kolkata, West Bengal 700144</p>
+										<p>Quazi Nibas North Khodar Bazar, Baruipur, Kolkata, West Bengal 700144</p>
 									</div>
 								</li>
 							</ul>
@@ -173,9 +173,6 @@
 				<a href="#" class="fab fa-instagram"></a>
 			</div><!-- /.mobile-nav__social -->
 		</div><!-- /.mobile-nav__top -->
-
-
-
 	</div>
 	<!-- /.mobile-nav__content -->
 </div>
@@ -227,6 +224,38 @@
 <!-- template js -->
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/qutiiz.js"></script>
 
+<div class="modal fade" id="getAQuoteModal" tabindex="-1" role="dialog" aria-labelledby="getAQuoteModalLabel" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="getAQuoteModalLabel">Get a Quote</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<form>
+					<div class="form-group">
+						<label for="quote-name">Name</label>
+						<input type="text" class="form-control" id="quote-name" placeholder="Enter your name">
+					</div>
+					<div class="form-group">
+						<label for="quote-email">Email</label>
+						<input type="email" class="form-control" id="quote-email" placeholder="Enter your email">
+					</div>
+					<div class="form-group">
+						<label for="quote-message">Message</label>
+						<textarea class="form-control" id="quote-message" rows="3" placeholder="Enter your message"></textarea>
+					</div>
+				</form>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				<button type="button" class="btn btn-primary">Submit</button>
+			</div>
+		</div>
+	</div>
+</div>
 <?php wp_footer(); ?>
 
 </body>
